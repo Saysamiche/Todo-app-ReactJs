@@ -1,0 +1,63 @@
+.todo-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.save-btn {
+  min-width: 70px;
+  min-height: 30px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  background-color: antiquewhite;
+  margin-bottom: 15px;
+  vertical-align: middle;
+}
+.cancel-btn {
+  min-width: 70px;
+  min-height: 30px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bolder;
+  color: red;
+  background-color: antiquewhite;
+  margin-bottom: 15px;
+  vertical-align: middle;
+}
+.save-btn:hover {
+  color: white;
+  background-color: green;
+  transition: 0.5s ease-in-out;
+}
+.cancel-btn:hover {
+  color: white;
+  background-color: red;
+  transition: 0.5s ease-in-out;
+}
+.text-input {
+  min-width: 400px;
+  min-height: 30px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  font-size: 20px;
+  background-color: antiquewhite;
+}
+.save-texts{
+    color: rgb(104, 201, 104);
+}
+.todo-text::placeholder {
+    color: cornflowerblue;
+    font-size: 14px;
+  }
