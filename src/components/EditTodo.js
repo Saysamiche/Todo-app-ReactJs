@@ -31,5 +31,4 @@ const EditTodo = ({
     </div>
   );
 };
-
 export default EditTodo;
