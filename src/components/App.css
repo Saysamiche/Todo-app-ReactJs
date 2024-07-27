@@ -4,14 +4,6 @@
   box-sizing: border-box;
 }
 
-/* .App {
-  background-color: rgb(48, 145, 230);
-  font-family: Georgia, "Times New Roman", Times, serif;
-  min-width: 400px;
-  min-height: 300px;
-  margin: 40px auto;
-  border-radius: 30px;
-} */
 .todo-heading {
   text-align: center;
   padding-top: 30px;
