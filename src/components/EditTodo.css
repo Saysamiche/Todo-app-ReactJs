@@ -5,12 +5,12 @@
   flex-direction: column;
 }
 .save-btn {
-  min-width: 70px;
-  min-height: 30px;
+  width: 50px;
+  height: 30px;
   border-radius: 8px;
   border: none;
   outline: none;
-  margin-left: 10px;
+  margin-left: 5px;
   cursor: pointer;
   font-size: 18px;
   font-weight: 400;
@@ -18,10 +18,11 @@
   background-color: antiquewhite;
   margin-bottom: 15px;
   vertical-align: middle;
+  padding: 4px;
 }
 .cancel-btn {
-  min-width: 70px;
-  min-height: 30px;
+  width: 50px;
+  height: 30px;
   border-radius: 8px;
   border: none;
   outline: none;
@@ -45,19 +46,19 @@
   transition: 0.5s ease-in-out;
 }
 .text-input {
-  min-width: 400px;
-  min-height: 30px;
-  border-radius: 15px;
+  width: 250px;
+  height: 30px;
+  border-radius: 8px;
   border: none;
   outline: none;
   padding-left: 15px;
-  font-size: 20px;
+  font-size: 18px;
   background-color: antiquewhite;
 }
-.save-texts{
-    color: rgb(104, 201, 104);
+.save-texts {
+  color: rgb(104, 201, 104);
 }
 .todo-text::placeholder {
-    color: cornflowerblue;
-    font-size: 14px;
-  }
+  color: cornflowerblue;
+  font-size: 14px;
+}

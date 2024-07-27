@@ -55,6 +55,7 @@ const App = () => {
     let updatedTodos = [...todos].map((item) => {
       if (item.id === todoItem.id) {
         todoItem.completed = !todoItem.completed;
+        alert(`Task completed`);
       }
       return item;
     });
@@ -78,8 +79,10 @@ const App = () => {
   // }
 
   function handleDelete(todoItem) {
+    alert(`Deleting Task`);
     setTodos((prevTodos) => {
       let updatedTodos = [...todos].filter((item) => item.id !== todoItem.id);
+
       window.localStorage.setItem("todos", JSON.stringify(updatedTodos));
       return updatedTodos;
     });
@@ -90,6 +93,7 @@ const App = () => {
     setCurrentTodoText(todoItem.text);
 
     setCurrentUpdate(todoItem.id);
+    alert(`You are about to edit this task`);
   }
 
   function updateSave(e) {
@@ -99,6 +103,7 @@ const App = () => {
     let updatedTodos = todos.map((item) => {
       if (item.id === currentUpdate) {
         item.text = updatedTodoText;
+        alert(`Task updated and saved`);
       }
       return item;
     });
@@ -112,6 +117,7 @@ const App = () => {
     e.preventDefault();
     setIsEditing(false);
     setCurrentTodoText("");
+    alert(`Task update canceled`);
   }
 
   return (

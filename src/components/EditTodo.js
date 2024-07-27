@@ -10,7 +10,7 @@ const EditTodo = ({
     <div className="todo-container">
       <form onSubmit={updateSave}>
         <input
-          className="text-input todo-text save-texts"
+          className="save-texts text-input"
           type="text"
           placeholder="What's the new task?"
           value={currentTodoText}
